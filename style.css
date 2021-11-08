@@ -1,17 +1,70 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 1050;
+  padding: 200;
+ 
 }
 
 h2 {
-  color: #181414;
+  color:blue;
+  text-decoration: crimson;
   text-align: center;
+  text-shadow: darkblue;
+  position: absolute;
+  font-size: 30px;
+  left:470px;
+  top:120px;
+  
+
 }
 
 canvas {
-  /* margin-top: 100px;
+  margin-top: 100px;
   margin-left: 25%;
-  margin-right: 25%; */
+  margin-right: 25%; 
   display: block;
-  border: 2px solid rgb(22, 12, 17)
+  border: 2px solid rgb(22, 12, 17);
+  position: absolute;
+  color: rgb(219, 219, 16);
+  
+  
+
 }
+input {
+  border-radius: 10px;
+  text-align: center;
+  color: red;
+  background-color: yellow;
+  height: 20px;
+  position: absolute;
+  left:480px;
+  top:250px;
+  
+
+}
+button {
+  
+  border-radius: 10px;
+  background-color: #4CAF50;
+  border:blue;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left:520px;
+  top:350px;
+  
+  cursor: pointer;
+
+}
+h3
+{
+  color :red;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+
+}
+  
