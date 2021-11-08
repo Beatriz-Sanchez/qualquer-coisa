@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script src="js/Jogo.js"></script>
+    <script src="js/Jogador.js"></script>
+    <script src="js/Form.js"></script>
+  </head>
+
+  <body>
+    <script type="module">
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA6At7juMdo3jAI8ykwkW6yRS6-RSGtjXE",
+        authDomain: "teste-bibs.firebaseapp.com",
+        databaseURL: "https://teste-bibs-default-rtdb.firebaseio.com",
+        projectId: "teste-bibs",
+        storageBucket: "teste-bibs.appspot.com",
+        messagingSenderId: "292843514003",
+        appId: "1:292843514003:web:26fa388707bdfc17b14566",
+        measurementId: "G-J1G9RGH73K"
+      };
+    
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
