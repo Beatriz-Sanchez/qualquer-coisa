@@ -4,17 +4,22 @@ class Form {
   display() {
     var titulo = createElement('h2');
     titulo.html("Jogo de Corrida");
-    titulo.position(130, 0);
+    //titulo.position(130, 0);
 
     //cria elementos html (botão, entrada e texto)
+ 
     var input = createInput("");
+  
     document.getElementsByTagName("INPUT")[0].placeholder = "Name";
+    document.getElementsByTagName("INPUT").id = "FormName";
+    
+
     var button = createButton("Jogar");
     var greeting = createElement("h3");
 
     //ajeita posição dos elementos html
-    input.position(130, 160);
-    button.position(200, 220);
+    //input.position(130, 160);
+    //button.position(200, 220);
 
     //quando clicar no botão
     button.mousePressed(function () {
