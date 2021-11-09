@@ -6,7 +6,7 @@ var form, jogador, jogo;
 function setup() {
   database = firebase.database();
   createCanvas(450, 450);
-  background('pink')
+  background('#06003d')
   jogo = new Jogo();
   jogo.getState();
   jogo.start();
